@@ -14,7 +14,7 @@ struct InputView: View {
     var isSecureField = false
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 12){
+        VStack(alignment: .leading, spacing: 14){
             Text(title)
                 .foregroundColor(Color(.darkGray))
                 .fontWeight(.semibold)
